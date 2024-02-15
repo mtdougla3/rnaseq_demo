@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#$ -M 
+#$ -M mdougla3@nd.edu
 #$ -m abe
-#$ -q debug
+#$ -q long
 #$ -N RunQC_A
-
+module load bio/2.0
 echo "Checking for software used in this step"
 
 echo "Checking for FastQC"
